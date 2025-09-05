@@ -5,7 +5,6 @@
     <PackageVersion Include="Npgsql" Version="9.0.3" />
     <PackageVersion Include="RabbitMQ.Client" Version="6.8.1" />
     <PackageVersion Include="Yarp.ReverseProxy" Version="2.1.0" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.7" />
     <!-- Безопасность -->
     <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
     <PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="7.6.0" />
