@@ -1,0 +1,6 @@
+<Project>
+	<!-- Централизованное управление версиями пакетов (опционально) -->
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+</Project>

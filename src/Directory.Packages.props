@@ -1,0 +1,21 @@
+<Project>
+  <ItemGroup>
+    <!-- Сеть/БД/шина -->
+    <PackageVersion Include="Npgsql" Version="8.0.3" />
+    <PackageVersion Include="RabbitMQ.Client" Version="6.8.1" />
+    <PackageVersion Include="Yarp.ReverseProxy" Version="2.1.0" />
+
+    <!-- Безопасность -->
+    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
+    <PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="7.6.0" />
+
+    <!-- Observability -->
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.9.0" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.9.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.9.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.9.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.9.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Process" Version="0.5.0-beta.2" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Npgsql" Version="1.0.0-rc.5" />
+  </ItemGroup>
+</Project>

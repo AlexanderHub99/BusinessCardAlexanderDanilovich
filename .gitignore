@@ -1,0 +1,52 @@
+# .NET артефакты
+**/bin/
+**/obj/
+**/out/
+artifacts/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+BenchmarkDotNet.Artifacts/
+
+# IDE/инструменты
+.vs/
+.idea/
+_ReSharper*/
+*.DotSettings.user
+*.user
+*.suo
+
+# VS Code (оставим настроечные файлы, остальное игнор)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ОС-мусор
+.DS_Store
+Thumbs.db
+
+# Веб/фронт (если появится Astro/Hugo/бандлер)
+**/node_modules/
+**/.pnpm-store/
+**/dist/
+**/build/
+**/wwwroot/dist/
+
+# Логи/временные
+*.log
+logs/
+*.pid
+*.tmp
+
+# Локальные окружения/секреты
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Docker/прочее
+docker-compose.override.yml
+**/.docker/
